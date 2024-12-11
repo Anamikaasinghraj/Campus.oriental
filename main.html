@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"  >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+	<link rel="stylesheet" href="css/media.css">
+ 
+   
+</head>
+<body>
+	<a href="https://wa.me/YOURNUMBER" class="whatsapp-float" target="_blank">
+		<i class="fab fa-whatsapp"></i>
+	  </a>
+
+	
+	  <div class="rotate" onclick="openPopup()">
+		<a href="javascript:void(0)" class="admission-open" > 
+		  <span class="rotated-text">Admission Open</span>
+		</a>
+	  </div>
+	  <div id="popup" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup()">&times;</span>
+			<h2>Contact Us</h2>
+			<form id="contact-form" action="#" method="post">
+			  <label for="fullName">Full Name</label>
+			  <input type="text" id="fullName" name="fullName" required>
+	  
+			  <label for="email">Email Address</label>
+			  <input type="email" id="email" name="email" required>
+	  
+			  <label for="phoneNumber">Contact Number</label>
+			  <input type="tel" id="phoneNumber" name="phoneNumber" required>
+	  
+			  <label for="courses">Select Courses applying for</label>
+			  <select id="courses" name="courses" required>
+				  <option value="">Select</option>
+				  <option value="PG">PG</option>
+				  <option value="UG">UG</option>
+			  </select>
